@@ -37,8 +37,12 @@ for /L %i in (1,1,6573) do potrace -s bmps/%i.bmp -o svgs/%i.svg
 
 In Unix bash shell, it should be:
 
-```
-for %i in {1...6573}; do potrace -s bmps/$i.bmp -o svgs/$i.svg; done
+```sh
+#!/bin/bash
+for i in {1..2629};
+do
+   potrace -s bmps/$i.bmp -o svgs/$i.svg
+done
 ```
 
 Now we want to optimize the SVGs, to reduce the final file size as well as simplify the work a little for our Python script.
