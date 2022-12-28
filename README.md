@@ -39,7 +39,7 @@ In Unix bash shell, it should be:
 
 ```sh
 #!/bin/bash
-for i in {1..2629};
+for i in {1..6573};
 do
    potrace -s bmps/$i.bmp -o svgs/$i.svg
 done
