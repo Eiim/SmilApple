@@ -1,5 +1,7 @@
 # SMIL Apple
 
+See the result [here](https://youtu.be/d0T-iEY7WZI?si=TCUawBGCQq-hGLUu)
+
 Generating your own SMIL animation is fairly easy. You just need the following:
 * Python 3
 * Node.js (for SVGO)
